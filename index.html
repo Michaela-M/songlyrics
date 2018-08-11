@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
@@ -11,15 +11,15 @@
     <link href="main.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <h1>Song Lyrics</h1>
-    <form action="#" class="js-search-form">
+    <h1 class="center">Song Lyrics</h1>
+    <form action="#" class="js-search-form center">
         <span>Artist:</span>
         <input type="text" class="js-query-artist" placeholder="Queen">
-        <span>Song title:</span>
-        <input type="text" class="js-query-title" placeholder="Under Pressure">
-        <button type="submit">Search</button>
+        <span class="song-title">Song title:</span>
+        <input type="text" class="js-query-title" placeholder="Bohemian Rhapsody">
+        <button type="submit" class="button">Search</button>
     </form>
-    <div class="js-search-results">
+    <div class="js-search-results center" aria-live="assertive">
             
     </div>
     <script src="index.js"></script>
